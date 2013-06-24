@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Minesweeper - by shlomi komemi</title>
+    <meta name="description" content="minesweeper game by shlomi komemi" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/minesweeper.css" />
+</head>
+<body>
+    <section>
+        <header>
+            <hgroup>
+                <h1>canvas Minesweeper</a></h1>
+                <h3>by <a href="http://komemi.com" target="_blank">shlomi komemi</a></h3>
+            </hgroup>
+        </header>
+        <article class="container">
+            <section class="select-level">
+                <header>
+                    <hgroup>
+                        <h2>Select Level</h2>
+                    </hgroup>
+                    <nav>
+                        <input type="button" class="button" data-level="1" value="Beginner" /><br />
+                        <input type="button" class="button" data-level="2" value="Intermediate " /><br />
+                        <input type="button" class="button" data-level="3" value="Expert" />
+                    </nav>
+                </header>
+            </section>
+            <canvas width="800" height="800" style="display:none;"></canvas>
+        </article>
+        <div class="start-new-game">
+            <a href="/minesweeper">start new game</a>
+        </div>
+    </section>
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/jcanvas.min.js"></script>
+    <script src="js/minesweeper.js"></script>
+    <script>
+        $(function () {
+            $('.button').click(function (e) {                
+                window.minesweeper.init($(this).data('level'));
+            });
+        });        
+    </script>
+</body>
+</html>

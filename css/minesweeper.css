@@ -1,0 +1,78 @@
+﻿body {
+    font-family:Courier New;
+}
+header{
+    margin:30px auto 0 auto;width:300px;
+}
+h1 {
+    font-size:28px;
+    font-weight: bold;
+    font-family: Calibri;
+    padding-bottom: 10px;
+}
+h2 {
+        font-size:24px;
+    font-weight: bold;
+    font-family: Calibri;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.container{margin:30px auto 0 auto;width:350px;border:solid 1px #ccc;
+-webkit-box-shadow: 3px 3px 3px #C0C0C0;
+-moz-box-shadow: 3px 3px 3px #C0C0C0;
+box-shadow: 3px 3px 3px #C0C0C0;
+}
+.container section {
+width: 300px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+.container section header {
+    width:300px;
+}
+.debug{position:fixed;width:350px;font-family:Calibri;height:600px;border:solid 1px #ccc;background-color:#eee;top:10px;left:10px;overflow:hidden;overflow-y:scroll;}
+.select-level{
+    margin-bottom: 30px;
+}
+.start-new-game {
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+   border-top: 1px solid #ffffff;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#316b91), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #316b91, #65a9d7);
+   background: -moz-linear-gradient(top, #316b91, #65a9d7);
+   background: -ms-linear-gradient(top, #316b91, #65a9d7);
+   background: -o-linear-gradient(top, #316b91, #65a9d7);
+   padding: 20px 40px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width:300px;
+   cursor:pointer;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
