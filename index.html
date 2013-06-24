@@ -12,8 +12,7 @@
     <section>
         <header>
             <hgroup>
-                <h1>canvas Minesweeper</a></h1>
-                <h3>by <a href="http://komemi.com" target="_blank">shlomi komemi</a></h3>
+                <h1>Canvas Minesweeper <span>by <a href="http://komemi.com" target="_blank">shlomi komemi</a></span></h1>                
             </hgroup>
         </header>
         <article class="container">
@@ -40,10 +39,10 @@
     <script src="js/minesweeper.js"></script>
     <script>
         $(function () {
-            $('.button').click(function (e) {                
+            $('.select-level').on('click', 'input[type=button]',function (e) {                
                 window.minesweeper.init($(this).data('level'));
             });
         });        
-    </script>
+    </script> 
 </body>
 </html>

@@ -2,7 +2,7 @@
     font-family:Courier New;
 }
 header{
-    margin:30px auto 0 auto;width:300px;
+    margin:30px auto 0 auto;width:500px;
 }
 h1 {
     font-size:28px;
@@ -10,31 +10,31 @@ h1 {
     font-family: Calibri;
     padding-bottom: 10px;
 }
+h1 span{
+  font-size:16px;
+}
 h2 {
-        font-size:24px;
+    font-size:24px;
     font-weight: bold;
     font-family: Calibri;
     padding-bottom: 10px;
 }
-h3 {
-    font-size: 14px;
-    font-weight: normal;
-}
-.container{margin:30px auto 0 auto;width:350px;border:solid 1px #ccc;
+h3 {font-size: 14px;font-weight: normal;}
+.container{margin:30px auto 0 auto;width:550px;border:solid 1px #ccc;
 -webkit-box-shadow: 3px 3px 3px #C0C0C0;
 -moz-box-shadow: 3px 3px 3px #C0C0C0;
 box-shadow: 3px 3px 3px #C0C0C0;
 }
 .container section {
-width: 300px;
+width: 500px;
 text-align: center;
 margin-right: auto;
 margin-left: auto;
 }
 .container section header {
-    width:300px;
+    width:500px;
 }
-.debug{position:fixed;width:350px;font-family:Calibri;height:600px;border:solid 1px #ccc;background-color:#eee;top:10px;left:10px;overflow:hidden;overflow-y:scroll;}
+.debug{position:fixed;width:550px;font-family:Calibri;height:600px;border:solid 1px #ccc;background-color:#eee;top:10px;left:10px;overflow:hidden;overflow-y:scroll;}
 .select-level{
     margin-bottom: 30px;
 }
@@ -42,7 +42,7 @@ margin-left: auto;
     text-align: center;
     padding: 20px;
 }
-
+a{curosr:pointer;}
 .button {
    border-top: 1px solid #ffffff;
    background: #65a9d7;
@@ -65,12 +65,14 @@ margin-left: auto;
    text-decoration: none;
    vertical-align: middle;
    width:300px;
-   cursor:pointer;
+   cursor:pointer !important;
+
    }
 .button:hover {
    border-top-color: #28597a;
    background: #28597a;
    color: #ccc;
+   curo
    }
 .button:active {
    border-top-color: #1b435e;
