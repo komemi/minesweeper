@@ -472,6 +472,6 @@ window.minesweeper = (function (window, jQuery, undefined) {
     return {
         init: game.init,
         select: game.select,
-
     }
+	
 })(window, jQuery);
